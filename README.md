@@ -42,6 +42,11 @@ Part of full stack web developer nano degree
 -	and this `chmod 644 .ssh/authorized_keys`
 - Now you can login after changing the port  `ssh -i (MY_PATH_TO_FILE) grader@52.29.79.147 -p 2200 `
 
+## Allow only key based authentication
+- Run that `sudo nano /etc/ssh/sshd_config`
+- Find that `PasswordAuthentication yes` change to `PasswordAuthentication no`
+-restart `sudo service ssh restart`
+
 ## Application Up-to-date
 - run this  `sudo apt-get update`
 - and this  `sudo apt-get upgrade`
