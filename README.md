@@ -88,10 +88,11 @@ Part of full stack web developer nano degree
 - go to this folder `cd /var/www`
 - Making New Directory for project  `sudo mkdir catalog`
 - clone my project from github ` https://github.com/islammashad/Item-catalog-resturant.git catalog` 
-- I made file `catalog.wsgi` and configure it with the path 
+- I made file `catalog.wsgi` and configure it with the path and secret key you can see by ` cat /var/www/catalog/catalog.wsgi`
 - I made the ` __init__.py` that have the content of `project.py` 
 - Also Updating my `client secret` path in `__init__.py `
 - making some configuration on my `virtual host` for my IP and URL 
+- Type `sudo nano /etc/apache2/sites-available/catalog.conf`
 - after restarting `apache` and checK IP it works 
 
 ## Notes 
