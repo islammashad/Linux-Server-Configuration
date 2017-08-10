@@ -17,9 +17,6 @@ Part of full stack web developer nano degree
 ## ssh port 
 - 2200
 
-## Key For User Grader when log in 
-- 01019015320 
-
 ## Disable remote login for root 
 - open that configration by this command `sudo nano /etc/ssh/sshd_config`
 - Find this line `PermitRootLogin prohibit-password StrictModes yes` then change 
